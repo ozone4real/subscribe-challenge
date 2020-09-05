@@ -1,13 +1,3 @@
-require_relative "./item.rb"
-require_relative "./input_transformer.rb"
-
-TAXED_PRODUCTS = [
-  "bottle of perfume",
-  "music CD"
-]
-BASIC_SALES_TAX = 10
-IMPORT_DUTY = 5
-
 class Order
   def initialize(items)
     @items = items.map do |item|
@@ -31,11 +21,3 @@ class Order
     end + ["Sales Taxes: #{total_tax}", "Total: #{total_price}"]
   end
 end
-
-
-
-input = ARGV.first
-items = InputTransformer.transform(input)
-
-order = Order.new(items)
-puts order.receipt
