@@ -73,7 +73,7 @@ Total: 98.38
   ```
     ruby app/shop.rb <input_file>
   ```
-  `<input_file>` should contain the items data listed in the format above. The file can be in any format
+  `<input_file>` should contain the items input listed in the format above. The file can be in any format
   
 ## Running tests
 From the root directory, run:
@@ -85,4 +85,4 @@ From the root directory, run:
 In the problem statement, there was this instruction:
 `The rounding rules for sales tax are that for a tax rate of n%, a shelf price of p contains (np/100 **rounded up to the nearest 0.05**)`
 
-Based on the test input and results in the example, I think the statement in bold above should be `rounded up to the next 0.05`
+Based on the test input and results in the example, I think the statement in bold above should be `rounded up to the next 0.05`, i.e `next` instead of `nearest`.
