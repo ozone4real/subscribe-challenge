@@ -73,7 +73,7 @@ Total: 98.38
   ```
     ruby app/shop.rb <input_file>
   ```
-  `<input_file>` should contain the items input listed in the format above. The file can be in any format
+  `<input_file>` is a path to a file that contains the items input listed in the format above(in the problem statement). The file can be in any format. You could use the input files in the `input` directory.
   
 ## Running tests
 From the root directory, run:
