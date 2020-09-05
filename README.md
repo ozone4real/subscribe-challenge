@@ -82,7 +82,7 @@ From the root directory, run:
 ```
 
 ## Observations
-In the problem statement, there was the below instruction:
-`The rounding rules for sales tax are that for a tax rate of n%, a shelf price of p contains (np/100 *rounded up to the nearest 0.05*)`
+In the problem statement, there was this instruction:
+`The rounding rules for sales tax are that for a tax rate of n%, a shelf price of p contains (np/100 **rounded up to the nearest 0.05**)`
 
 Based on the test input and results in the example, I think the statement in bold above should be `rounded up to the next 0.05`
